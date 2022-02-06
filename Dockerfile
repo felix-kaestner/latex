@@ -1,6 +1,6 @@
-ARG BASE_IMAGE=debian:testing-slim
+ARG VARIANT=testing-slim
 
-FROM ${BASE_IMAGE}
+FROM debian:${VARIANT}
 LABEL org.opencontainers.image.source https://github.com/felix-kaestner/latex
 
 ARG USER_ID=1000
