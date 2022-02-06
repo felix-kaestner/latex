@@ -1,4 +1,4 @@
-ARG VARIANT=testing-slim
+ARG VARIANT=bullseye
 
 FROM debian:${VARIANT}
 LABEL org.opencontainers.image.source https://github.com/felix-kaestner/latex
