@@ -8,3 +8,11 @@
 ```bash
 $ docker pull ghcr.io/felix-kaestner/latex:1.0 
 ```
+
+## Architectures
+
+This image has been ported for the following architectures, which are officially supported by Docker, Inc. for running Docker: (see [download.docker.com](https://download.docker.com/linux/))
+-	ARMv6 32-bit (`arm32v6`): https://hub.docker.com/u/arm32v6/
+-	ARMv7 32-bit (`arm32v7`): https://hub.docker.com/u/arm32v7/
+-	ARMv8 64-bit (`arm64v8`): https://hub.docker.com/u/arm64v8/
+-	Linux x86-64 (`amd64`): https://hub.docker.com/u/amd64/
